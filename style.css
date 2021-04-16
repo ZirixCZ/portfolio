@@ -130,6 +130,11 @@ a {
         background: rgb(255, 255, 255);
         box-shadow: 0px 4px 4px rgba(74, 0, 172, 0.25);
         transition: 0.3s;
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .navbar a {
     font-weight: 200;
@@ -161,6 +166,11 @@ a {
     }
     .header h3 {
         font-size: 25px;
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .portfolio-wrapper {
         position: relative;
@@ -184,18 +194,38 @@ a {
     .portfolio-wrapper h2 {
         font-size: 60px;
         text-shadow: 0px 2px 4px rgba(5, 0, 255, 0.25);
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .strengths-wrapper h2 {
         font-size: 60px;
         text-shadow: 0px 2px 4px rgba(141, 1, 59, 0.25);
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .contact-wrapper h2 {
         font-size: 60px;
         text-shadow: 0px 2px 4px rgba(61, 61, 61, 0.25);
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .contact-wrapper h3 {
         font-size: 25px;
         right: 10%;
+
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
     .contact-wrapper h4 {
         font-size: 25px;
@@ -210,3 +240,52 @@ a {
 
     }
 }
+/*Making the website a bit nice-er*/
+@media screen and (min-width: 700px) {
+    .navbar {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    .header h3 {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    .portfolio-wrapper h2 {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    .strengths-wrapper h2 {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    .contact-wrapper h2 {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    .contact-wrapper h3 {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+    ::-moz-selection { /* Code for Firefox */
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+      }
+      
+      ::selection {
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+      }
+}
+
