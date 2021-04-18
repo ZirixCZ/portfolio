@@ -21,7 +21,7 @@ a {
     text-align: center;
     cursor: pointer;
 
-    color: #787878;
+    color: #ffffff;
     font-weight: 300;
 }
 .navbar {
@@ -50,6 +50,9 @@ a {
     
     font-weight: 200;
     color: #787878;
+}
+#head {
+    height: 100%;
 }
 #portfolio {
     height: 180%;
@@ -87,7 +90,26 @@ a {
     
     font-weight: 300;
     color: #303030;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#about {
+    height: 100%;
+    width: 100%;
+}
+.about-wrapper {
+    position: relative;
+    top: 0;
+}
+.about-wrapper h2 {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 300px;
+    
+    font-weight: 300;
+    color: #303030;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #contact {
     height: 100%;
@@ -121,31 +143,85 @@ a {
     line-height: 100px;
 }
 @media screen and (min-width: 700px) {
+    .parallax {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-attachment: fixed;
+        background-image: url("resources/pexels-lisa-1083822.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(60%);
+    }
+    .parallax-portfolio {
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-attachment: fixed;
+        background-image: url("resources/pexels-daniel-frank-688830.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(60%);
+    }
+    .parallax-strengths {
+        top: 200%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-attachment: fixed;
+        background-image: url("resources/pexels-suzy-hazelwood-2382325.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(60%);
+    }
+    .parallax-contact {
+        top: 400%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-attachment: fixed;
+        background-image: url("resources/pexels-irina-iriser-1379636.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(80%);
+    }
+    .parallax-about {
+        top: 300%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-attachment: fixed;
+        background-image: url("resources/pexels-cátia-matos-1072179.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(80%);
+    }
     .navbar {
         position: fixed;
         visibility: visible;
         width: 100%;
         height: 100px;
         z-index: 1;
-        background: rgb(255, 255, 255);
-        box-shadow: 0px 4px 4px rgba(74, 0, 172, 0.25);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         transition: 0.3s;
     }
     .navbar a {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 35px;
     display: inline;
     padding: 50px;
     top: 25%;
     left: 35%;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     }
     .scroll-color-portfolio {
-        box-shadow: 0px 4px 4px rgba(5, 0, 255, 0.25);
+        box-shadow: 0px 4px 4px rgba(37, 37, 37, 0.25);
     }
     .scroll-color-strengths {
-        box-shadow: 0px 4px 4px rgba(141, 1, 59, 0.25);;
+        box-shadow: 0px 4px 4px rgba(1, 113, 141, 0.25);;
     }
     .scroll-color-contact {
         box-shadow: 0px 4px 4px rgba(61, 61, 61, 0.25);
@@ -155,58 +231,117 @@ a {
         top: 50%;
     }
     .header h1 {
-        font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(74, 0, 172, 0.25);
+        font-size: 80px;
+        text-shadow: 0px 2px 8px rgba(255, 255, 255, 0.13);
+        color: white;
     }
     .header h3 {
         font-size: 25px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.750);
     }
     .portfolio-wrapper {
         position: relative;
-        top: 40%;
+        top: 10%;
         transition: opacity 0.2s;
         opacity: 0;
+    }
+    .portfolio-wrapper a {
+        text-shadow: black 0px 2px 2px;
+        font-size: 25px;
     }
     .portfolio-wrapper-hide {
         opacity: 1;
     }
     .strengths-wrapper {
+        top: 10%;
         opacity: 0;
         transition: opacity 0.2s;
     }
     .strengths-wrapper a {
         cursor: default;
+        text-shadow: black 0px 1px 2px;
+        font-size: 25px;
     }
     .strengths-wrapper-hide {
         opacity: 1;
     }
+    .about-wrapper {
+        top: 10%;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+    .about-wrapper a {
+        cursor: default;
+        text-shadow: black 0px 1px 2px;
+        font-size: 25px;
+    }
+    .about-wrapper-hide {
+        opacity: 1;
+    }
+    .about-wrapper h2 {
+        font-size: 60px;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
+        color: white;
+    }
     .portfolio-wrapper h2 {
         font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(5, 0, 255, 0.25);
+        color: white;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
     }
     .strengths-wrapper h2 {
         font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(141, 1, 59, 0.25);
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
+        color: white;
     }
     .contact-wrapper h2 {
         font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(61, 61, 61, 0.25);
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
+        color: white;
     }
     .contact-wrapper h3 {
-        font-size: 25px;
-        right: 10%;
+        font-size: 30px;
+        right: 5%;
+        color: white;
+        text-shadow: black 0px 2px 2px;
+        font-weight: 300;
     }
     .contact-wrapper h4 {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 100px;
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: black 0px 2px 2px;
+        font-weight: 300;
     }
     .contact-wrapper {
+        top: 15%;
         opacity: 0;
         transition: opacity 0.2s;
     }
     .contact-wrapper-hide {
         opacity: 1;
 
+    }
+
+
+    #portfolio {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #strengths {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #contact {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #about {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 /*Making the website a bit nice-er*/
