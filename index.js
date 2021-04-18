@@ -7,9 +7,6 @@
   window.addEventListener('scroll', event => document.querySelector('.about-wrapper').classList [2300 < document.scrollingElement.scrollTop ? 'add' : 'remove']
   ('about-wrapper-hide')
   );
-  window.addEventListener('scroll', event => document.querySelector('.contact-wrapper').classList [3500 < document.scrollingElement.scrollTop ? 'add' : 'remove']
-  ('contact-wrapper-hide')
-  );
 
   
   function quincyscpOpen() {
