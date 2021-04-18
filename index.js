@@ -1,22 +1,13 @@
-
-    window.addEventListener('scroll', event => document.querySelector('.navbar').classList [700 < document.scrollingElement.scrollTop ? 'add' : 'remove']
-  ('scroll-color-portfolio')
-  );
-  window.addEventListener('scroll', event => document.querySelector('.navbar').classList [1600 < document.scrollingElement.scrollTop ? 'add' : 'remove']
-  ('scroll-color-strengths')
-  );
-  window.addEventListener('scroll', event => document.querySelector('.navbar').classList [2600 < document.scrollingElement.scrollTop ? 'add' : 'remove']
-  ('scroll-color-contact')
-  );
-
-
-  window.addEventListener('scroll', event => document.querySelector('.strengths-wrapper').classList [1800 < document.scrollingElement.scrollTop ? 'add' : 'remove']
+  window.addEventListener('scroll', event => document.querySelector('.strengths-wrapper').classList [1400 < document.scrollingElement.scrollTop ? 'add' : 'remove']
   ('strengths-wrapper-hide')
   );
-  window.addEventListener('scroll', event => document.querySelector('.portfolio-wrapper').classList [800 < document.scrollingElement.scrollTop ? 'add' : 'remove']
+  window.addEventListener('scroll', event => document.querySelector('.portfolio-wrapper').classList [500 < document.scrollingElement.scrollTop ? 'add' : 'remove']
   ('portfolio-wrapper-hide')
   );
-  window.addEventListener('scroll', event => document.querySelector('.contact-wrapper').classList [2700 < document.scrollingElement.scrollTop ? 'add' : 'remove']
+  window.addEventListener('scroll', event => document.querySelector('.about-wrapper').classList [2300 < document.scrollingElement.scrollTop ? 'add' : 'remove']
+  ('about-wrapper-hide')
+  );
+  window.addEventListener('scroll', event => document.querySelector('.contact-wrapper').classList [3500 < document.scrollingElement.scrollTop ? 'add' : 'remove']
   ('contact-wrapper-hide')
   );
 
