@@ -1,395 +1,228 @@
 body, html {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    text-align: center;
-}
-body {
-    background-color: #FEFEFE;
-    font-family: 'Roboto', sans-serif;
+    background-color: #CCCEDA;
     overflow-x: hidden;
-    width: 100%;
+    overflow-y: hidden;
     height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
-a {
-    font-size: 20px;
-    position: relative;
-    display: grid;
-    line-height: 128px;
-    text-align: center;
+nav {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15%;
+    width: 100%;
+    background-color: #e5e7ee;
+}
+nav a {
     cursor: pointer;
-
-    color: #ffffff;
-    font-weight: 300;
+    position: relative;
+    color: black;
+    left: 70%;
+    padding: 40px;
+    top: 30%;
+    font-size: 30px;
 }
-.navbar {
+nav p {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-size: 30px;
+}
+.hiddenEasteregg {
     visibility: hidden;
 }
-.header {
-    position: relative;
-    top: 20%;
+.nav_picture {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 9%;
+    left: 1%;
+    background-image: url("resources/Zirixpfp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    transition: 0.2s;
 }
-.header h1 {
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 300;
+.portfworks {
+    position: absolute;
+    height: 70%;
+    width: 55%;
 
-    color: #303030;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    left: 2%;
+    top: 24%;
+    display:block;
 }
-.header h3 {
+.portfworks h2 {
+    position: relative;
+    text-align: center;
+}
+.portfworks_picture1 {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 65%;
+    left: 26%;
+    background-image: url("resources/portfpicture1.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px;
+}
+.portfworks_picture2 {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 15%;
+    background-image: url("resources/portfpicture2.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px;
+}
+.portfworks_picture3 {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 55%;
+    top: 15%;
+    background-image: url("resources/portfpicture3.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px;
+}
+.portfworks_picture1:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 10px 20px;
+}
+.portfworks_picture2:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 10px 20px;
+}
+.portfworks_picture3:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 10px 20px;
+}
+.aboutmetext {
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    top: 27%;
+    left: 70%;
+}
+.aboutmetext h2 {
+    position: relative;
+    text-align: center;
+}
+.aboutmetext p {
     font-size: 20px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 500px;
-    
-    font-weight: 200;
-    color: #787878;
+    line-height: 45px;
 }
-#head {
-    height: 100%;
-}
-#portfolio {
-    height: 180%;
-    width: 100%;
-}
-.portfolio-wrapper {
-    position: relative;
-    top: 40%;
-}
-.portfolio-wrapper h2 {
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 300px;
-    
-    font-weight: 300;
-    color: #303030;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
-#strengths {
-    height: 100%;
-    width: 100%;
-}
-.strengths-wrapper {
-    position: relative;
-    top: 0;
-}
-.strengths-wrapper h2 {
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 300px;
-    
-    font-weight: 300;
-    color: #303030;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-#about {
-    height: 100%;
-    width: 100%;
-}
-.about-wrapper {
-    position: relative;
-    top: 0;
-}
-.about-wrapper h2 {
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 300px;
-    
-    font-weight: 300;
-    color: #303030;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-#contact {
-    height: 100%;
-    width: 100%;
-}
-.contact-wrapper {
-    position: relative;
-    top: 0;
-}
-.contact-wrapper h2 {
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 300px;
-    
-    font-weight: 300;
-    color: #303030;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.contact-wrapper h3 {
-    position: relative;
-    font-weight: 200;
-    font-size: 20px;
-    right: 20%;
-}
-.contact-wrapper h4 {
-    position: relative;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 100px;
-}
-@media screen and (min-width: 700px) {
-    .parallax {
-        top: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-attachment: fixed;
-        background-image: url("resources/pexels-lisa-1083822\ -downscaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(60%);
+/*design*/
+::-moz-selection { /* Code for Firefox */
+    color: rgb(10, 10, 10);
+    background: rgb(240, 240, 240);
+  }
+  
+  ::selection {
+    color: rgb(10, 10, 10);
+    background: rgb(240, 240, 240);
+  }
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .aboutmetext p {
+        font-size: 8px;
+        line-height: 10px;
     }
-    .parallax-portfolio {
-        top: 100%;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-attachment: fixed;
-        background-image: url("resources/pexels-daniel-frank-688830\ -downscaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(60%);
+    .aboutmetext h2 {
+      font-size: 10px;
     }
-    .parallax-strengths {
-        top: 200%;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-attachment: fixed;
-        background-image: url("resources/pexels-suzy-hazelwood-2382325\ -downscaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(60%);
+    .portfworks h2 {
+      font-size: 10px;
     }
-    .parallax-contact {
-        top: 400%;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-attachment: fixed;
-        background-image: url("resources/pexels-irina-iriser-1379636\ -downscaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(80%);
+    .portfworks {
+        height: 50%;
+        width: 60%;
+        top: 27%;
     }
-    .parallax-about {
-        top: 300%;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-attachment: fixed;
-        background-image: url("resources/pexels-cátia-matos-1072179\ -\ downscaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(80%);
+    nav p {
+        left: 30%;
+        top: 30%;
+        font-size: 20px;
     }
-    .navbar {
-        position: fixed;
-        visibility: visible;
-        width: 100%;
-        height: 100px;
-        z-index: 1;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        transition: 0.3s;
+    nav a {
+        left: 70%;
+        padding: 5px;
+        top: 30%;
+        font-size: 10px;
     }
-    .navbar a {
-    font-size: 35px;
-    line-height: 35px;
-    display: inline;
-    padding: 50px;
-    top: 25%;
-    left: 35%;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  }
+  /* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .aboutmetext p {
+        font-size: 15px;
+        line-height: 20px;
     }
-    .scroll-color-portfolio {
-        box-shadow: 0px 4px 4px rgba(37, 37, 37, 0.25);
+    .aboutmetext h2 {
+      font-size: 30px;
     }
-    .scroll-color-strengths {
-        box-shadow: 0px 4px 4px rgba(1, 113, 141, 0.25);;
+    .portfworks h2 {
+      font-size: 30px;
     }
-    .scroll-color-contact {
-        box-shadow: 0px 4px 4px rgba(61, 61, 61, 0.25);
+    .portfworks {
+        height: 50%;
+        width: 60%;
+        top: 27%;
     }
-    .header {
-        transition: opacity 0.2s;
+    nav p {
+        left: 20%;
         top: 50%;
-    }
-    .header h1 {
-        font-size: 80px;
-        text-shadow: 0px 2px 8px rgba(255, 255, 255, 0.13);
-        color: white;
-    }
-    .header h3 {
-        font-size: 25px;
-        font-weight: 300;
-        color: rgba(255, 255, 255, 0.750);
-    }
-    .portfolio-wrapper {
-        position: relative;
-        top: 10%;
-        transition: opacity 0.2s;
-        opacity: 0;
-    }
-    .portfolio-wrapper a {
-        text-shadow: black 0px 2px 2px;
-        font-size: 25px;
-    }
-    .portfolio-wrapper-hide {
-        opacity: 1;
-    }
-    .strengths-wrapper {
-        top: 10%;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .strengths-wrapper a {
-        cursor: default;
-        text-shadow: black 0px 1px 2px;
-        font-size: 25px;
-    }
-    .strengths-wrapper-hide {
-        opacity: 1;
-    }
-    .about-wrapper {
-        top: 10%;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .about-wrapper a {
-        cursor: default;
-        text-shadow: black 0px 1px 2px;
-        font-size: 25px;
-    }
-    .about-wrapper-hide {
-        opacity: 1;
-    }
-    .about-wrapper h2 {
-        font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
-        color: white;
-    }
-    .portfolio-wrapper h2 {
-        font-size: 60px;
-        color: white;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
-    }
-    .strengths-wrapper h2 {
-        font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
-        color: white;
-    }
-    .contact-wrapper h2 {
-        font-size: 60px;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
-        color: white;
-    }
-    .contact-wrapper h3 {
         font-size: 30px;
-        right: 5%;
-        color: white;
-        text-shadow: black 0px 2px 2px;
-        font-weight: 300;
     }
-    .contact-wrapper h4 {
+    nav a {
+        left: 70%;
+        padding: 30px;
+        top: 35%;
         font-size: 30px;
-        line-height: 100px;
-        color: rgba(255, 255, 255, 0.85);
-        text-shadow: black 0px 2px 2px;
-        font-weight: 300;
     }
-    .contact-wrapper {
-        top: 15%;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .contact-wrapper-hide {
-        opacity: 1;
-
-    }
-
-
-    #portfolio {
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #strengths {
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #contact {
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #about {
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-/*Making the website a bit nice-er*/
-@media screen and (min-width: 700px) {
-    .navbar {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    .header h3 {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    .portfolio-wrapper h2 {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    .strengths-wrapper h2 {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    .contact-wrapper h2 {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    .contact-wrapper h3 {
-        -webkit-user-select: none; /* Safari */        
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
-    ::-moz-selection { /* Code for Firefox */
-        color: rgb(255, 255, 255);
-        background: rgb(0, 0, 0);
+  }
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      nav p {
+          font-size: 35px;
+          top: 20%;
       }
-      
-      ::selection {
-        color: rgb(255, 255, 255);
-        background: rgb(0, 0, 0);
+      .aboutmetext p {
+          font-size: 20px;
+          line-height: 20px;
       }
 }
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+    .aboutmetext {
+        visibility: hidden;
+    }
+    .portfworks {
+        visibility: hidden;
+    }
+    nav a {
+        visibility: hidden;
+    }
+    .hiddenEasteregg {
+        visibility: visible;
+        position: absolute;
+        top: 150%;
 
+
+    }
+}
