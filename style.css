@@ -25,10 +25,13 @@ nav a {
     font-size: 30px;
 }
 nav p {
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     top: 45%;
     left: 8%;
     font-size: 30px;
+    color: #3d3d3d;
+    text-shadow: rgba(0, 0, 0, 0.144) 0px 5px 5px;
 }
 .hiddenEasteregg {
     visibility: hidden;
