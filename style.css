@@ -202,7 +202,8 @@ nav p {
   and (-webkit-min-device-pixel-ratio: 1) { 
       nav p {
           font-size: 35px;
-          top: 20%;
+          top: 15%;
+          left: 10%;
       }
       .aboutmetext p {
           font-size: 20px;
