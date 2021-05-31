@@ -14,6 +14,7 @@ nav {
     height: 15%;
     width: 100%;
     background-color: #e5e7ee;
+    box-shadow: rgba(0, 0, 0, 0.062) 2px 2px 20px;
 }
 nav a {
     text-decoration: none;
@@ -189,7 +190,7 @@ h5 a {
 }
 .links_div {
         top: 60%;
-        height: 35%;
+        height: 40%;
         width: 75%;
         left: 10%;
      }
