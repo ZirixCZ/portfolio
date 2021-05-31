@@ -14,6 +14,7 @@ nav {
     height: 15%;
     width: 100%;
     background-color: #e5e7ee;
+    box-shadow: rgba(0, 0, 0, 0.062) 2px 2px 20px;
 }
 nav a {
     text-decoration: none;
@@ -59,6 +60,8 @@ nav p {
     display:block;
 }
 .portfworks h2 {
+    font-size: 30px;
+    margin: 0px;
     position: relative;
     text-align: center;
 }
@@ -126,6 +129,23 @@ nav p {
 .aboutmetext p {
     font-size: 20px;
     line-height: 45px;
+}
+#scss {
+    color: #CD6799;
+    font-weight: bold;
+}
+#css {
+    color: #2AA9E0;
+    font-weight: bold;
+}
+#html {
+    color: #ee5818;
+    font-weight: bold;
+}
+#about-me-a {
+    text-decoration: underline;
+    color: black;
+
 }
 /*design*/
 ::-moz-selection { /* Code for Firefox */
@@ -208,7 +228,7 @@ nav p {
       }
       .aboutmetext p {
           font-size: 20px;
-          line-height: 20px;
+          line-height: 35px;
       }
 }
 @media 
