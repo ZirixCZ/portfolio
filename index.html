@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" class="notranslate" translate="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zirix's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="resources/ZirixFaviconMIK.PNG">
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/463cbf7f77.js" crossorigin="anonymous"></script>
-    <meta name="google-site-verification" content="_038VhKk3x-5CQyMXkJgh14DOJM1EJajqmbt-d08irI" />
 </head>
 <body>
-    <nav>
-        <div class="nav_picture"></div>
-        <p>Zirix#4222</p>
-        <a href="contact.html">Contact</a>
-        <p class="hiddenEasteregg">Use a bigger screen pls</p>
-    </nav>
-    <div class="portfworks">
-        <h2>Some of my works</h2>
-        <a href="https://quincymc.ga/" target="_blank"  class="portfworks_picture1"></a>
-        <a href="https://quincyscp.ga/" target="_blank" class="portfworks_picture2"></a>
-        <a href="404err.html" target="_blank"  class="portfworks_picture3"></a>
+    <div class="header-container">
+        <h2>Hello, I'm <span>Zirix</span>.<br>I'm a front-end website developer.</h2>
+        <i class="fas fa-long-arrow-alt-down"></i>
     </div>
-    <div class="aboutmetext">
-        <h2>About me</h2>
-        <p>I am a beginner web developer from <b>Czechia</b>. I've been specializing in a <b>front-end</b> development for over a year. I primarily use <span id="scss"><i class="fab fa-sass"></i>SCSS</span> / <span id="css"><i class="fab fa-css3-alt"></i>CSS</span> and <span id="html"><i class="fab fa-html5"></i>HTML</span> for making websites. I will be more than glad if I will be given the opportunity to work on your next project. If interested, take a look at my <a id="about-me-a" href="contact.html">contact page.</a></p>
-    </div>
-    <script src="index.js"></script>
+    
+    <section id="portfolio">
+        <div class="portfolio-container">
+            <h3>Portfolio</h3>
+        </div>
+            <div class="portfolio-grid">
+                <a class="item item1"></a>
+                <a class="item item2"></a>
+                <a class="item item3"></a>
+            </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h3>Get to know me!</h3>
+        </div>
+        <div class="about-text">
+            <h4>My name is Michael. I come from the Czech republic. I love doing front-end website development. I use HTML5 and CSS3 for creating all of my websites. I will be more than glad to work on your next website project. if interested, contact me on my <a onclick="discordPopUp()">discord</a>, or on my <a href="mailto:zirixcz@gmail.com" target="_top">email</a>.</h4>
+        </div>
+    </section>
+    <script>
+        function discordPopUp() {
+            alert("Zirix#4222");
+        }
+    </script>
 </body>
 </html>
