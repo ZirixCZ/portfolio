@@ -120,7 +120,7 @@
 
 }
 @media screen and (min-width: 2200px) {
-    .header-container h2 {
+    .header-container h1 {
         font-size: 32px;
     }
     #portfolio {
