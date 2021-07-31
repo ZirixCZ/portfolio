@@ -1,0 +1,144 @@
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .about-text {
+        height: 65vh;
+    }
+    .about-text h4 {
+        width: 85%;
+    }
+    .header-container i {
+        padding-bottom: 7%;
+    }
+    #about {
+        height: 95vh;
+    }
+
+    #portfolio {
+        height: 200vh;
+    }
+    .portfolio-grid {
+        align-items: center;
+        flex-direction: column;
+        height: 170vh;
+    }
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .about-text {
+        height: 55vh;
+    }
+    .about-text h4 {
+        width: 85%;
+    }
+    .header-container i {
+        padding-bottom: 7%;
+    }
+    #about {
+        height: 75vh;
+    }
+
+    #portfolio {
+        height: 200vh;
+    }
+    .portfolio-grid {
+        align-items: center;
+        flex-direction: column;
+        height: 170vh;
+    }
+
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .about-text {
+        height: 45vh;
+    }
+    .about-text h4 {
+        width: 85%;
+    }
+    .header-container i {
+        padding-bottom: 7%;
+    }
+    #about {
+        height: 65vh;
+    }
+
+    #portfolio {
+        height: 160vh;
+    }
+    .portfolio-grid {
+        align-items: center;
+        flex-direction: column;
+        height: 140vh;
+    }
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .about-text {
+        height: 25vh;
+    }
+    .about-text h4 {
+        width: 85%;
+        font-size: 25px;
+    }
+    #about {
+        height: 45vh;
+    }
+    .item {
+        margin: 10px;
+        width: 350px
+    }
+    .portfolio-grid {
+        height: 40vh;
+    }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .about-text {
+        height: 50vh;
+    }
+    .about-text h4 {
+        width: 35%;
+    }
+    #about {
+        height: 65vh;
+    }
+
+}
+@media screen and (min-width: 2200px) {
+    .header-container h2 {
+        font-size: 32px;
+    }
+    #portfolio {
+        height: 60vh;
+    }
+    .portfolio-grid {
+        height: 40vh;
+    }
+    .portfolio-container h3 {
+        font-size: 50px;
+    }
+    #about {
+        height: 40vh;
+    }
+    .about-text {
+        height: 25vh;
+    }
+    .about-text h4 {
+        font-size: 28px;
+    }
+}
