@@ -1,24 +1,48 @@
+h1 {
+    font-size: 5vw;
+}
 /* header */
 .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 80%;
     color: rgb(235, 235, 235);
 }
 .header-container span {
+    color: rgb(40, 131, 216);;
+}
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.header-buttons button {
+    cursor: pointer;
+    font-size: 0.1px;
+    margin: 30px;
+    background-color: #090c10;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.header-buttons i {
+    background-color: #090c10;
+    font-size: 2vw;
+}
+.changeBtn-red {
+    color: rgb(216, 40, 40);
+}
+.changeBtn-blue {
     color: rgb(40, 131, 216);
 }
-.header-container i {
-    align-self: flex-end;
-    position: absolute;
-    padding-bottom: 2%;
-    font-size: 40px;
+.changeBtn-green {
+    color: rgb(40, 216, 55);
 }
 /* portfolio */
 #portfolio {
-    height: 70vh;
-    background-color: rgb(245, 245, 245);
+    height: 100vh;
+    background-color: #090c10;
 }
 .portfolio-container {
     display: flex;
@@ -26,9 +50,9 @@
     height: 10%;
 }
 .portfolio-container h3 {
-    padding-top: 5%;
-    font-size: 40px;
-    color: rgb(10, 10, 10);
+    padding-top: 10%;
+    font-size: 5vw;
+    color: rgb(235, 235, 235);
 }
 .portfolio-grid {
     display: flex;
@@ -37,7 +61,7 @@
     height: 60vh;
 }
 .item {
-    margin: 100px;
+    margin: 75px;
     padding: 50px;
     height: 80px;
     width: 190px;
@@ -46,25 +70,20 @@
     background-size: cover;
     transition: 0.3s ease;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    background-color: black;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
     filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 2px 5px);
 }
 .item i {
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 20px;
     margin: 10px;
 }
-.item:hover {
-    height: 90px;
-    width: 200px;
-    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 10px 10px);
-}
-
 /* about */
 #about {
-    height: 45vh;
+    height: 30vh;
 }
 .about-container {
     display: flex;
@@ -72,22 +91,23 @@
     height: 10%;
 }
 .about-container h3 {
-    padding-top: 5%;
-    font-size: 40px;
+    padding-top: 0;
+    font-size: 5vw;
     color: rgb(245, 245, 245);
 }
 .about-text {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 30vh;
+    height: 70vh;
     color: rgb(235, 235, 235);
+    letter-spacing: 1.5px;
 }
 .about-text h4 {
-    line-height: 30px;
-    font-size: 19px;
-    width: 35%;
+    font-size: 1.8vw;
+    font-weight: 400;
+    width: 40%;
 }
 .about-text a {
     text-decoration: none;
@@ -96,8 +116,8 @@
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: auto;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(31, 31, 31);
+    background-color: silver;
 }
