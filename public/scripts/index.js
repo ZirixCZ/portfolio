@@ -1,9 +1,10 @@
+// I'm actually proud of this file, as I finally feel like I'm getting better
+AOS.init({
+    disable: 'phone'
+});
 function discordPopUp() {
     alert("Zirix#4222");
 }
-AOS.init({
-    disable: 'mobile'
-});
 const red = document.querySelector(".changeBtn-red");
 const blue = document.querySelector(".changeBtn-blue");
 const green = document.querySelector(".changeBtn-green");
