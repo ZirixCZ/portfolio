@@ -8,6 +8,8 @@ firebase-debug.log*
 firebase-debug.*.log*
 firebase.json
 .firebaserc
+package-lock.json
+public/404.html
 # Firebase cache
 .firebase/
 
