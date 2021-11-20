@@ -1,14 +1,34 @@
-![portfolioHeader](https://user-images.githubusercontent.com/49836430/131455622-ad714181-a05c-4cfe-a039-65d5230c5faf.PNG)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Recent projects
-**[My portfolio website](https://zirix.ga/)** <br><br>
-[Quincy's SCP: Secret Laboratory](https://quincyscp.gq/) <br>
-[Quincy's SCP: Escape Together](https://quincyet.ga/)
-## Skills
-![html5ico](https://user-images.githubusercontent.com/49836430/131457540-f9d7cac7-539a-4259-aba6-dcd2426b3f02.png) <br>
-"The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. <br>
-HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items." [HTML](https://en.wikipedia.org/wiki/HTML)
+## Getting Started
 
-![css3ico](https://user-images.githubusercontent.com/49836430/131458361-8a9af829-2735-4609-9679-9fec31deb853.png) <br>
-"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics." [CSS](https://en.wikipedia.org/wiki/CSS)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
