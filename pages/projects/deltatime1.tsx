@@ -1,9 +1,6 @@
 import { Navbar } from '@/components/Navbar'
-import { useRouter } from 'next/router';
-import { Item } from '@/components/Item'
 import Head from "next/head";
 import {Card} from "@/components/Card";
-import ProjectPage1 from "./deltatime";
 const ProjectPage2: React.FC = () => {
     return (
         <>

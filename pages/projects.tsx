@@ -1,5 +1,4 @@
 import { Navbar } from '@/components/Navbar'
-import { useRouter } from 'next/router';
 import { Item } from '@/components/Item'
 import Head from "next/head";
 const Projects: React.FC = () => {
@@ -15,10 +14,10 @@ const Projects: React.FC = () => {
             
 
                 <h5 className="text-center m-20 text-White text-4xl">Github Projects</h5>
-            <Item link="/projects/deltatime" header="DeltaTime" picture="/images/Octocat.png" width="96"/>
+            <Item link="/projects/deltatime" header="DeltaTime" picture="/images/Octocat.png" width={96}/>
             <h5 className="text-center m-20 text-White text-4xl">Websites</h5>
-            <Item link="https://quincyscp.gq/" header="Quincy's SL" picture="/images/duckfavicon192.png" width="80"/>
-            <Item link="https://quincyet.ga/" header="Quincy's ET" picture="/images/duckfavicon192.png" width="80"/>
+            <Item link="https://quincyscp.gq/" header="Quincy's SL" picture="/images/duckfavicon192.png" width={80}/>
+            <Item link="https://quincyet.ga/" header="Quincy's ET" picture="/images/duckfavicon192.png" width={80}/>
         </>
     )
 }

@@ -1,13 +1,11 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
-import {Navbar} from "@/components/Navbar";
 
 type ItemProps = {
     link: string;
     header: string;
     picture: string;
-    width: string;
+    width: number;
 }
 
 const Card: React.FC<ItemProps> = ({ children , header, link, picture, width}) => {
