@@ -18,8 +18,8 @@ const Home: NextPage = () => {
           <div className="w-full h-screen flex justify-center items-center flex-col font-UbuntuMono">
 
               <h1 className="animate__animated animate__bounce text-OpenClosing text-5xl 2xl:text-9xl mb-10 flex items-center z-10"><span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">h1</span><span className="text-OpenClosing font-bold">&gt;</span>Hello,<span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">/h1</span><span className="text-OpenClosing font-bold">&gt;</span></h1>
-                  <h2 className="text-White text-2xl 2xl:text-3xl mb-10 text-OpenClosing z-10 text-center"><span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">h2</span><span className="text-OpenClosing font-bold">&gt;</span>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">/h2</span><span className="text-OpenClosing font-bold">&gt;</span></h2>
-                  <Link href="projects"><a className="bg-White text-DarkPurple border border-text-WhiteFont py-7 px-11 2xl:px-36 rounded-2xl text-3xl z-10">Click me</a></Link>
+                  <h2 className="text-White text-2xl 2xl:text-5xl mb-10 text-OpenClosing z-10 text-center"><span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">h2</span><span className="text-OpenClosing font-bold">&gt;</span>I am a high school student. Check out my work.<span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">/h2</span><span className="text-OpenClosing font-bold">&gt;</span></h2>
+                  <Link href="projects"><a className="bg-White text-DarkPurple border border-text-WhiteFont py-8 px-11 2xl:px-24 rounded-2xl text-3xl z-10">Let's Check it out!</a></Link>
           </div>
 </>
   )
