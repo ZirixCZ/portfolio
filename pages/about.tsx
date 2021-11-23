@@ -15,10 +15,9 @@ const About: React.FC = () => {
             <Navbar/>
             <div className="h-screen w-screen flex justify-center pt-64 items-center">
                 <div className="h-screen w-screen flex justify-center">
-                    <div className="w-screen h-screen xl:h-4/6 xl:w-3/6  rounded-2xl text-OpenClosing flex justify-center items-center flex-col text-center">
-                        <h2 className="text-6xl pb-9">Contact me</h2>
-                        <h2 className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Discord</b> - Zirix#4222<img className="rounded-full mx-6" src="https://cdn.discordapp.com/avatars/378937948948791297/59d6ab9ad087329476f5b5a0cce02d54.png" height={32} width={45}></img></h2>
-                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Twitter</b> - SmollHatKid<img className="rounded-full mx-6" src="https://pbs.twimg.com/profile_images/1308268753956810753/sblWIXoP_400x400.jpg" height={32} width={45}></img></a>
+                    <div className="w-screen h-screen xl:h-4/6 xl:w-screen  rounded-2xl text-OpenClosing flex justify-center items-center flex-col text-center">
+                        <h2 className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Discord</b> - Zirix#4222<Image className="rounded-full mx-6" src="/images/zirixpfpmik.png" height={40} width={40}></Image></h2>
+                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Twitter</b> - SmollHatKid<Image className="rounded-full mx-6" src="/images/twitterpic.jpg" height={40} width={40}></Image></a>
                         <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="text-2xl xl:text-4xl pb-9"><b>or Email</b> - zirixcz@gmail.com</a>
                         
                     </div>
