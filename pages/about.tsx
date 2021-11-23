@@ -1,8 +1,9 @@
-import { ReactElement } from 'react'
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Navbar } from '@/components/Navbar'
 import Head from "next/head";
+import React from 'react'
+import Image from 'next/image'
+import {Property} from "csstype";
+import Height = Property.Height;
 const About: React.FC = () => {
     return (
         <>
@@ -13,11 +14,13 @@ const About: React.FC = () => {
             </Head>
             <Navbar/>
             <div className="h-screen w-screen flex justify-center pt-64 items-center">
-                <div className="h-full w-full flex justify-center">
-                    <div className="h-5/6 w-5/6 bg-White rounded-2xl flex justify-center items-center flex-col">
-                        <h2>header</h2>
-                        <h3>desc</h3>
-                        <h3>some cool stuff</h3>
+                <div className="h-screen w-screen flex justify-center">
+                    <div className="w-screen h-screen xl:h-4/6 xl:w-3/6  rounded-2xl text-OpenClosing flex justify-center items-center flex-col text-center">
+                        <h2 className="text-6xl pb-9">Contact me</h2>
+                        <h2 className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Discord</b> - Zirix#4222<img className="rounded-full mx-6" src="https://cdn.discordapp.com/avatars/378937948948791297/59d6ab9ad087329476f5b5a0cce02d54.png" height={32} width={45}></img></h2>
+                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Twitter</b> - SmollHatKid<img className="rounded-full mx-6" src="https://pbs.twimg.com/profile_images/1308268753956810753/sblWIXoP_400x400.jpg" height={32} width={45}></img></a>
+                        <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="text-2xl xl:text-4xl pb-9"><b>or Email</b> - zirixcz@gmail.com</a>
+                        
                     </div>
                 </div>
             </div>
