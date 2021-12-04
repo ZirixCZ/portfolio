@@ -1,6 +1,5 @@
 import { Navbar } from '@/components/Navbar'
 import { Item } from '@/components/Item'
-import { ItemGrey } from '@/components/Item-Grey'
 import Head from "next/head";
 const Projects: React.FC = () => {
     return (
@@ -11,13 +10,13 @@ const Projects: React.FC = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar prop='text-center fixed z-10 w-full h-24 bg-NavBar flex items-center justify-center font-UbuntuMono text-White border-b-2 border-White shadow-2xl text-2xl l:text-3xl'/>
-                <h2 className="text-center py-40 pb-0 text-6xl xl:text-8xl text-White font-bold">Projects</h2> 
+                <h2 className="py-40 pb-0 text-6xl font-bold text-center xl:text-8xl text-White">Projects</h2> 
             
 
-                <h5 className="text-center m-20 text-White text-4xl">Github Projects</h5>
+                <h5 className="m-20 text-4xl text-center text-White">Github Projects</h5>
             <Item link="/projects/deltatime" header="DeltaTime" picture="/images/deltatime-grey.png" width={90}/>
-            <h5 className="text-center m-20 text-White text-4xl">Websites</h5>
-            <Item link="https://quincyscp.gq/" header="Quincy's SL" picture="/images/duckfavicon192.png" width={80}/>
+            <h5 className="m-20 text-4xl text-center text-White">Websites</h5>
+            <Item link="https://quincyscp.web.app/" header="Quincy's SL" picture="/images/duckfavicon192.png" width={80}/>
             <Item link="https://quincyet.ga/" header="Quincy's ET" picture="/images/duckfavicon192.png" width={80}/>
         </>
     )

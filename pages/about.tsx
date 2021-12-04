@@ -13,12 +13,12 @@ const About: React.FC = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar prop='text-center fixed z-10 w-full h-24 bg-NavBar flex items-center justify-center font-UbuntuMono text-White border-b-2 border-White shadow-2xl text-2xl l:text-3xl'/>
-            <div className="h-screen w-screen flex justify-center pt-64 items-center overflow-y-hidden">
-                <div className="h-screen w-screen flex justify-center">
-                    <div className="w-screen h-screen xl:h-4/6 xl:w-screen  rounded-2xl text-OpenClosing flex justify-center items-center flex-col text-center">
-                        <h2 className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Discord</b> - Zirix#4222<img className="rounded-full mx-6" src="/images/zirixpfpmik.png" height={40} width={40}></img></h2>
-                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="text-2xl xl:text-4xl pb-9 flex flex-row"><b>Twitter</b> - SmollHatKid<img className="rounded-full mx-6" src="/images/twitterpic.jpg" height={40} width={40}></img></a>
-                        <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="text-2xl xl:text-4xl pb-9"><b>or Email</b> - zirixcz@gmail.com</a>
+            <div className="flex overflow-y-hidden justify-center items-center pt-64 w-screen h-screen">
+                <div className="flex justify-center w-screen h-screen">
+                    <div className="flex flex-col justify-center items-center w-screen h-screen text-center rounded-2xl xl:h-4/6 xl:w-screen text-OpenClosing">
+                        <h2 className="flex flex-row pb-9 text-2xl xl:text-4xl"><b>Discord</b> - Zirix#4222<img className="mx-6 rounded-full" src="/images/zirixpfpmik.png" height={40} width={40}></img></h2>
+                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="flex flex-row pb-9 text-2xl xl:text-4xl"><b>Twitter</b> - SmollHatKid<img className="mx-6 rounded-full" src="/images/twitterpic.jpg" height={40} width={40}></img></a>
+                        <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="pb-9 text-2xl xl:text-4xl"><b>or Email</b> - zirixcz@gmail.com</a>
                         
                     </div>
                 </div>

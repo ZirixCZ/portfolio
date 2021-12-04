@@ -14,12 +14,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar prop='text-center fixed z-10 w-full h-24 bg-NavBar flex items-center justify-center font-UbuntuMono text-White border-b-2 border-HTMLTag shadow-2xl text-2xl l:text-3xl'/>
-        <div className="bg-image h-screen w-screen bg-cover fixed"></div>
-          <div className="w-full h-screen flex justify-center items-center flex-col font-UbuntuMono">
+        <div className="fixed w-screen h-screen bg-cover bg-image"></div>
+          <div className="flex flex-col justify-center items-center w-full h-screen font-UbuntuMono">
 
-              <h1 className="animate__animated animate__bounce text-OpenClosing text-5xl 2xl:text-9xl mb-10 flex items-center z-10"><span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">h1</span><span className="text-OpenClosing font-bold">&gt;</span>Hello,<span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">/h1</span><span className="text-OpenClosing font-bold">&gt;</span></h1>
-                  <h2 className="text-White text-2xl 2xl:text-5xl mb-10 text-OpenClosing z-10 text-center"><span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">h2</span><span className="text-OpenClosing font-bold">&gt;</span>I am a high school student. Check out my work.<span className="text-OpenClosing font-bold">&lt;</span><span className="text-HTMLTag font-bold">/h2</span><span className="text-OpenClosing font-bold">&gt;</span></h2>
-                  <Link href="projects"><a className="bg-White text-DarkPurple border border-text-WhiteFont py-8 px-11 2xl:px-24 rounded-2xl text-3xl z-10">Let's Check it out!</a></Link>
+              <h1 className="flex z-10 items-center mb-10 text-4xl xl:text-5xl animate__animated animate__bounce text-OpenClosing 2xl:text-9xl"><span className="font-bold text-OpenClosing">&lt;</span><span className="font-bold text-HTMLTag">h1</span><span className="font-bold text-OpenClosing">&gt;</span>Hello,<span className="font-bold text-OpenClosing">&lt;</span><span className="font-bold text-HTMLTag">/h1</span><span className="font-bold text-OpenClosing">&gt;</span></h1>
+                  <h2 className="z-10 mb-10 text-xl text-center text-White xl:text-5xl text-OpenClosing"><span className="font-bold text-OpenClosing">&lt;</span><span className="font-bold text-HTMLTag">h2</span><span className="font-bold text-OpenClosing">&gt;</span>I am a high school student. Check out my work.<span className="font-bold text-OpenClosing">&lt;</span><span className="font-bold text-HTMLTag">/h2</span><span className="font-bold text-OpenClosing">&gt;</span></h2>
+                  <Link href="projects"><a className="z-10 px-11 py-8 text-2xl rounded-2xl border xl:text-3xl bg-White text-DarkPurple border-text-WhiteFont 2xl:px-24">Let's Check it out!</a></Link>
           </div>
 </>
   )
