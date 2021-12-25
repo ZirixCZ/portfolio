@@ -10,10 +10,10 @@ const Projects: React.FC = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar prop='text-center fixed z-10 w-full h-24 bg-NavBar flex items-center justify-center font-UbuntuMono text-White border-b-2 border-White shadow-2xl text-2xl l:text-3xl'/>
-                <h2 className="py-40 pb-0 text-6xl font-bold text-center xl:text-8xl text-White">Projects</h2> 
+                <h2 className="py-40 pb-0 text-6xl font-bold text-center xl:text-7xl text-White xl:tracking-wide">Projects</h2> 
             
 
-                <h5 className="m-20 text-4xl text-center text-White">Github Projects</h5>
+                <h5 className="m-20 text-4xl text-center text-White xl:tracking-w">Github Projects</h5>
             <Item link="/projects/deltatime" header="DeltaTime" picture="/images/deltatime-grey.png" width={90}/>
             <h5 className="m-20 text-4xl text-center text-White">Websites</h5>
             <Item link="https://quincyscp.web.app/" header="Quincy's SL" picture="/images/duckfavicon192.png" width={80}/>

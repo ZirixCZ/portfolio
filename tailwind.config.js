@@ -23,11 +23,15 @@ module.exports = {
       White: '#fff',
       Grey: '#2c2f36',
       GreyDark: '#15161A',
+      GreyDarkLighter: '#1D1E24',
+      GreyDarkest: '#22232B',
       Green: '#00A651',
       BlueDefault: '#4F46E5',
       DarkPurple: '#23022E',
       Xiketic: '#0F0114',
-      RussianViolet: '#2B033A'
+      RussianViolet: '#2B033A',
+      WhiteDarker: '#232227',
+      WhiteDarkest: '#19171C'
     }
   },
   variants: {

@@ -17,8 +17,8 @@ const About: React.FC = () => {
                 <div className="flex justify-center w-screen h-screen">
                     <div className="flex flex-col justify-center items-center w-screen h-screen text-center rounded-2xl xl:h-4/6 xl:w-screen text-OpenClosing">
                         <h2 className="flex flex-row pb-9 text-2xl xl:text-4xl"><b>Discord</b> - Zirix#4222<img className="mx-6 rounded-full" src="/images/zirixpfpmik.png" height={40} width={40}></img></h2>
-                        <a href="https://twitter.com/SmollHatKid" target="_blank" className="flex flex-row pb-9 text-2xl xl:text-4xl"><b>Twitter</b> - SmollHatKid<img className="mx-6 rounded-full" src="/images/twitterpic.jpg" height={40} width={40}></img></a>
-                        <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="pb-9 text-2xl xl:text-4xl"><b>or Email</b> - zirixcz@gmail.com</a>
+                        {/* <a href="https://twitter.com/SmollHatKid" target="_blank" className="flex flex-row pb-9 text-2xl xl:text-4xl"><b>Twitter</b> - SmollHatKid<img className="mx-6 rounded-full" src="/images/twitterpic.jpg" height={40} width={40}></img></a>
+                        <a href="mailto:zirixcz@gmail.com?subject=Hello there" target="_blank" className="pb-9 text-2xl xl:text-4xl"><b>or Email</b> - zirixcz@gmail.com</a> */}
                         
                     </div>
                 </div>
