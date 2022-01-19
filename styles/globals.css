@@ -1,21 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body, html{
-    font-family: 'Ubuntu Mono', sans-serif;
-    height: 100%;
-    width: 100%;
-    background-color: #191B1F;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox *
+:root {
+  --ChangingText: #000000;
+  --ChangingBackground: #FDFDF;
+  --itemLong: #000000;
+  --itemShort: #fff;
+  --itemText: #fff;
+  --itemBorder: #000000;
+}
+body,
+html {
+  font-family: "Ubuntu Mono", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: var(--ChangingBackground);
+  text-color: var(--ChangingText);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox *
 }
 .bg-image {
     background-color: #191B1F;
     /*background-image: url("/images/test1.png");*/
 }
+.textBlack {
+  color: var(--ChangingText);
+}
+.itemLong {
+  background-color: var(--itemLong);
+}
+.itemShort {
+  background-color: var(--itemShort);
+}
+.itemText {
+  color: var(--itemText);
+}
+.itemBorder {
+  border-color: var(--itemBorder);
+}
 ::-webkit-scrollbar-thumb {
+  display: none;
+}
+#itemNavbarPara {
+  display: block;
+}
+/* Switch to hamburger menu on small devices */
+@media only screen and (max-width: 768px) {
+  #itemNavbarPara {
     display: none;
+  }
+}
+
+.rotate-anim {
+  -webkit-animation: appear 1s ease-in 0s 1 normal;
+  -moz-animation: appear 1s ease-in 0s 1 normal;
+  -ms-animation: appear 1s ease-in 0s 1 normal;
+  animation: appear 1s ease-in 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
 }
