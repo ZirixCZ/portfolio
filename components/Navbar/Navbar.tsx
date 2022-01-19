@@ -18,7 +18,7 @@ const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) 
             <Link href="/projects"><a className={color1}>Projects</a></Link>
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/about"><a className={color2}>Contact</a></Link>
-            <button id="themechanger" className="m-4"><FontAwesomeIcon icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon></button>
+            <button id="themechanger" className="m-4"><FontAwesomeIcon className="max-h-7" icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon></button>
         </nav>
     )
 }
