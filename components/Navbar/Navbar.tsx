@@ -12,12 +12,6 @@ type ItemProps = {
 }
 const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) =>
     <>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        />
-
-
 
         <nav className={prop}>
             <Link href="/"><a className={color}>Root</a></Link>
@@ -27,8 +21,8 @@ const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) 
             <Link href="/about"><a className={color2}>Contact</a></Link>
             <button id="themechanger" className="m-4">
                 {/* <FontAwesomeIcon className="max-h-7" icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon> */}
-                <i className={isSwitched ? "fa fa-moon" : "fa fa-sun"}></i>
-                </button>
+                <img className="max-h-6" src={isSwitched ? "/images/icons8-moon-symbol-50.png" : "/images/icons8-sun-30.png"}></img>
+            </button>
         </nav>
     </>
 
