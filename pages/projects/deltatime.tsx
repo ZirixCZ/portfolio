@@ -1,8 +1,7 @@
 import { Navbar } from '@/components/Navbar'
 import Head from "next/head";
 import { Card } from "@/components/Card";
-const ProjectPage1: React.FC = () => {
-    return (
+const ProjectPage1: React.FC = () =>
         <>
             <Head>
                 <title>Root/Projects</title>
@@ -13,6 +12,4 @@ const ProjectPage1: React.FC = () => {
             <Card header="DeltaTime - Discord Bot" link="https://github.com/ZirixCZ/DeltaTime-Discord" picture="/images/deltatime.png" width={150}>
             </Card>
         </>
-    )
-}
 export default ProjectPage1;

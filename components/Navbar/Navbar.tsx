@@ -10,19 +10,27 @@ type ItemProps = {
     color1: string;
     color2: string;
 }
-const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) => {
-    return (
+const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) =>
+    <>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+
+
+
         <nav className={prop}>
             <Link href="/"><a className={color}>Root</a></Link>
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/projects"><a className={color1}>Projects</a></Link>
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/about"><a className={color2}>Contact</a></Link>
-            <button id="themechanger" className="m-4"><FontAwesomeIcon className="max-h-7" icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon></button>
+            <button id="themechanger" className="m-4">
+                {/* <FontAwesomeIcon className="max-h-7" icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon> */}
+                <i className={isSwitched ? "fa fa-moon" : "fa fa-sun"}></i>
+                </button>
         </nav>
-    )
-}
-
+    </>
 
 let isSwitched: boolean = false;
 if (process.browser) {

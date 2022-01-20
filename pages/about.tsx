@@ -4,8 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import { Property } from 'csstype';
 import Height = Property.Height;
-const About: React.FC = () => {
-    return (
+const About: React.FC = () => 
         <>
             <Head>
                 <title>Root/Projects</title>
@@ -25,6 +24,4 @@ const About: React.FC = () => {
             </div>
 
         </>
-    )
-}
 export default About;

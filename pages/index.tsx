@@ -5,8 +5,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 
-const Home: NextPage = () => {
-  return (
+const Home: NextPage = () => 
     <>
       <Head>
         <title>Root</title>
@@ -40,7 +39,4 @@ const Home: NextPage = () => {
         </Link>
       </div>
     </>
-  );
-};
-
 export default Home;

@@ -1,8 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Item } from "@/components/Item";
 import Head from "next/head";
-const Projects: React.FC = () => {
-    return (
+const Projects: React.FC = () => 
         <>
             <Head>
                 <title>Root/Projects</title>
@@ -46,6 +45,4 @@ const Projects: React.FC = () => {
             />
             </div>
         </>
-    );
-};
 export default Projects;
