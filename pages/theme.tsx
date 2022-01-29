@@ -21,7 +21,6 @@ if (process.browser) {
     document.getElementById("themeLight")?.addEventListener('click', function () {
         getLight(r);
     })
-    
 }
 function getDark(r: HTMLElement) {
 

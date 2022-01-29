@@ -18,7 +18,7 @@ html {
   height: 100%;
   width: 100%;
   background-color: var(--ChangingBackground);
-  text-color: var(--ChangingText);
+  color: var(--ChangingText);
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox *
 }

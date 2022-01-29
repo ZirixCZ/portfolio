@@ -32,7 +32,7 @@ const Home: NextPage = () =>
           <span className="font-bold textBlack">h2</span>
           <span className="font-bold text-OpenClosing">&gt;</span>
         </h2>
-        <Link href="projects">
+        <Link href="/projects">
           <a className="z-10 px-11 xl:py-6 py-5 text-2xl border-2 xl:text-2xl bg-White text-DarkPurple border-text-WhiteFont 2xl:px-20 font-bold xl:tracking-widest">
             Let's Check it out!
           </a>
