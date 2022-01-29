@@ -10,6 +10,7 @@ type ItemProps = {
     color1: string;
     color2: string;
 }
+console.log("before html");
 const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) =>
     <>
 
@@ -20,12 +21,11 @@ const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) 
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/about"><a className={color2}>Contact</a></Link>
             <button id="themechanger" className="m-4">
-                {/* <FontAwesomeIcon className="max-h-7" icon={isSwitched ? faMoon : faSun}></FontAwesomeIcon> */}
                 <img className="max-h-6" src={isSwitched ? "/images/icons8-moon-symbol-50.png" : "/images/icons8-sun-30.png"}></img>
             </button>
         </nav>
     </>
-
+console.log("before process.browser");
 let isSwitched: boolean = false;
 if (process.browser) {
     document.getElementById("themechanger")?.addEventListener('click', function () {
