@@ -19,9 +19,9 @@ const Item: React.FC<ItemProps> = ({
   return (
     <div className="flex justify-center mb-20 w-full h-28">
       <Link href={link}>
-        <div className="flex w-10/12 md:w-7/12 h-full border-4 itemBorder cursor-pointer xl:w-36rem itemLong hover:-translate-y-1 duration-300 transition ease-in-out">
-          <div className="xl:w-2/9 itemShort">
-            <div className="flex items-center mx-0 w-full  h-full mx-0 xl:mx-5">
+        <div className="flex w-10/12 md:w-7/12 h-full border-4 itemBorder cursor-pointer xl:w-32rem itemLong hover:-translate-y-1 duration-300 transition ease-in-out">
+          <div className="xl:w-2/9 xl:ml-9 ml-3">
+            <div className="flex items-center mx-0 w-full h-full mx-0 xl:mx-5">
               <Image
                 className="relative rounded-full"
                 src={picture}
@@ -31,7 +31,7 @@ const Item: React.FC<ItemProps> = ({
             </div>
           </div>
           <div className="flex items-center w-3/4 h-full">
-            <h4 className="m-20 text-2xl xl:text-4xl itemText xl:tracking-widest">
+            <h4 className="m-10 xl:m-12 text-2xl xl:text-4xl itemText xl:tracking-wider tracking-tight font-medium">
               {header}
             </h4>
           </div>
