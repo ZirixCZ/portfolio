@@ -11,6 +11,7 @@
   --itemShort: #fff;
   --itemText: #fff;
   --itemBorder: #000000;
+  --colorMain: #FF389C;
 }
 body,
 html {
@@ -26,6 +27,9 @@ html {
     background-color: #191B1F;
     /*background-image: url("/images/test1.png");*/
 }
+.MainColorTheme {
+  color: var(--colorMain);
+}
 .textBlack {
   color: var(--ChangingText);
 }
@@ -40,6 +44,9 @@ html {
 }
 .itemBorder {
   border-color: var(--itemBorder);
+}
+#boldOrNot {
+  font-weight: 900;
 }
 ::-webkit-scrollbar-thumb {
   display: none;

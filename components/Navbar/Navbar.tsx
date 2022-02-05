@@ -13,7 +13,9 @@ type ItemProps = {
 console.log("before html");
 const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) =>
     <>
+    
         <nav className={prop}>
+            <Link href="/theme"><a className="absolute left-0 ml-8">Theme</a></Link>
             <Link href="/"><a className={color}>Root</a></Link>
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/projects"><a className={color1}>Projects</a></Link>
