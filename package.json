@@ -16,7 +16,7 @@
     "next": "^12.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sweetalert2": "^11.3.10"
+    "sweetalert2": "^11.4.0"
   },
   "devDependencies": {
     "@types/node": "16.11.7",

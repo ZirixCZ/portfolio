@@ -33,7 +33,7 @@ const Home: NextPage = () =>
         <span className="font-bold MainColorTheme">&gt;</span>
       </h2>
       <Link href="/projects">
-        <a className="z-10 px-11 xl:py-6 py-5 text-2xl border-2 xl:text-2xl bg-White text-DarkPurple border-text-WhiteFont 2xl:px-20 font-bold xl:tracking-widest">
+        <a className="z-10 px-11 xl:py-6 py-5 text-2xl border-2 rounded-md xl:text-2xl bg-White text-DarkPurple border-text-WhiteFont 2xl:px-20 font-bold xl:tracking-widest">
           Let's Check it out!
         </a>
       </Link>

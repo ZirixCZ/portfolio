@@ -45,4 +45,5 @@ const Projects: React.FC = () =>
             />
         </div>
     </>
+
 export default Projects;

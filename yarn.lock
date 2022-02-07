@@ -3423,10 +3423,10 @@
   dependencies:
     "has-flag" "^4.0.0"
 
-"sweetalert2@^11.3.10":
-  "integrity" "sha512-/3nhG5QCREkPUndAbOF9h1IM7lgCIU/evsNXd/YUfa9eJ04M+hxksxIio8hhtH16UnWd2GvJ+zvFQ8H9hLRhsw=="
-  "resolved" "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.3.10.tgz"
-  "version" "11.3.10"
+"sweetalert2@^11.4.0":
+  "integrity" "sha512-+p0jT2LxUQGreWa60j7nm1frJfqbcmamZcpZi4puEGAJ0CmyPqQ4UGmBqbB4WxkJYKsn8qcOA9ufqn0MWtQWLQ=="
+  "resolved" "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.4.0.tgz"
+  "version" "11.4.0"
 
 "table@^6.0.9":
   "integrity" "sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw=="

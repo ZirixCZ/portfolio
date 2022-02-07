@@ -21,11 +21,11 @@ const Navbar: React.FC<ItemProps> = ({ children, prop, color, color1, color2 }) 
             <Link href="/projects"><a className={color1}>Projects</a></Link>
             <p className="m-4" id="itemNavbarPara">/</p>
             <Link href="/about"><a className={color2}>Contact</a></Link>
-            <App/>
+            <LightDarkChanger/>
         </nav>
     </>
 let isSwitched = true;
-function App() {
+function LightDarkChanger() {
     function themeChange() {
         if (typeof window !== 'undefined') {
 
